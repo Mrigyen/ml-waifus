@@ -4,7 +4,7 @@
 
 Gwern Branwen has released a [website](https://www.thiswaifudoesnotexist.net/index.html) that showcases a selection of [StyleGAN](https://github.com/NVlabs/stylegan)-generated anime girl face images (and many of them are adorable).
 
-This is an extremely simple script that randomly selects an image from Gwern's website's server, downloads it (each download replaces the previous image download), and adds it as a GNOME wallpaper.
+This is an extremely simple script (when added to `crontab`, runs every minute) that randomly selects an image from Gwern's website's server, downloads it (each download replaces the previous image download), and adds it as a GNOME wallpaper.
 
 It is great motivation to study Machine Learning more. At least for me.
 
