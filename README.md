@@ -2,11 +2,9 @@
 
 ## Introduction
 
-Gwern Branwen has released a [website](https://www.thiswaifudoesnotexist.net/index.html) that showcases a selection of [StyleGAN](https://github.com/NVlabs/stylegan)-generated anime girl face images (and many of them are adorable).
+Gwern Branwen has released a [website](https://www.thiswaifudoesnotexist.net/index.html) that showcases a selection of [StyleGAN](https://github.com/NVlabs/stylegan)-generated anime girl face images.
 
 This is an extremely simple script (when added to `crontab`, runs every minute) that randomly selects an image from Gwern's website's server, downloads it (each download replaces the previous image download), and adds it as a GNOME wallpaper.
-
-It is great motivation to study Machine Learning more. At least for me.
 
 ---
 
@@ -30,7 +28,6 @@ Verified working on Ubuntu 18.04 with GNOME desktop environment.
 ---
 
 ## Possible issues
-(Because no program is perfect.)
 
 1. Proxy madness: if you have `http_proxy` set in your environment variables but you switch to a non-proxy internet connection, `wget` will get stuck attempting to download the picture, but won't be able to. In that case, you'll be stuck with the same picture until the environment variables are also taken care of.
 
